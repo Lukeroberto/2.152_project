@@ -8,9 +8,17 @@ lorenz = @ode_def Lorenz begin
     dy = ρ*x-y-x*z
     dz = x*y-β*z
 end σ ρ β
-#f(u,p,t) = 1.01*u
 
-export lorenz
+d_integrator = @ode_def d_int begin
+    dx = v
+    dv = u/m
+end m
+
+d_integrator_wrong = @ode_def d_int_wrong begin
+    m = m - 0.5
+    dx = v
+    dv = u/m
+end m
 
 function manipulator(du, u, p, t)
     # Unpack the parameters into standar manipulator eqn form:
@@ -50,13 +58,14 @@ function manipulator(du, u, p, t)
     du[2] = u[5]
     du[3] = u[6]
     du[4] = dot(M_inv[1,:], τ[1] - D[1]*u[4] - C[1,:] - G[1])
-#     du[4] = dot(M_inv[1,:], -C[1,:] - G[1])
+    #     du[4] = dot(M_inv[1,:], -C[1,:] - G[1])
 
     du[5] = dot(M_inv[2,:], τ[2] - D[2]*u[5] - C[2,:] - G[2])
-#     du[5] = dot(M_inv[2,:], -C[2,:] - G[2])
+    #     du[5] = dot(M_inv[2,:], -C[2,:] - G[2])
 
     du[6] = τ[3]
 end
+
 
 
 end
