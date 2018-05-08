@@ -2,23 +2,7 @@
 module dynamics
 
 using DifferentialEquations
-
-lorenz = @ode_def Lorenz begin
-    dx = σ*(y-x)
-    dy = ρ*x-y-x*z
-    dz = x*y-β*z
-end σ ρ β
-
-d_integrator = @ode_def d_int begin
-    dx = v
-    dv = u/m
-end m
-
-d_integrator_wrong = @ode_def d_int_wrong begin
-    m = m - 0.5
-    dx = v
-    dv = u/m
-end m
+include("../adaptive_control/adaptive_control.jl")
 
 function manipulator(du, u, p, t)
     # Unpack the parameters into standar manipulator eqn form:
