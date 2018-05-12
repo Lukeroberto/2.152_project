@@ -1,7 +1,5 @@
 module lagrange
 
-using SymEngine
-
 # Calculates the jacobian of vector-fucntion w.r.t a vector
 function jacobian(f,x)
     m = length(f)
@@ -13,13 +11,17 @@ function jacobian(f,x)
 end
 
 # Calculates the time derivative of a vector
-function ddt(r, state)
-    jacobian(r, [state[1];state[2]])*[state[2];state[3]]
+function ddt(r, q,dq,ddq)
+    jacobian(r, [q;dq])*[dq;ddq]
 end
 
 # Calculates generalized torque
 function M2Q(M,w,dq)
     jacobian(w,dq)'*M
+end
+
+function F2Q(r,F,q)
+    jacobian(r,q)'*F
 end
 
 end
