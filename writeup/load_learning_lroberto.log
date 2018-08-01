@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.20)  15 MAY 2018 04:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.20)  15 MAY 2018 12:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -180,6 +180,13 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip46
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count118
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -194,7 +201,7 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 Package graphics Info: Driver file: pdftex.def on input line 95.
  (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count118
+\Gread@gobject=\count119
 ))
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
@@ -203,41 +210,41 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \epsfysize=\dimen118
 )
 
-./load_learning_lroberto.tex:21: LaTeX Error: Missing \begin{document}.
+./load_learning_lroberto.tex:22: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 
+l.22 
      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./load_learning_lroberto.tex:21: LaTeX Error: Missing \begin{document}.
+./load_learning_lroberto.tex:22: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 
+l.22 
      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 21.
+(Font)              <14.4> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 21.
+(Font)              <7> on input line 22.
 
-./load_learning_lroberto.tex:21: LaTeX Error: Missing \begin{document}.
+./load_learning_lroberto.tex:22: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 
+l.22 
      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -245,20 +252,20 @@ If that doesn't work, type  X <return>  to quit.
 (./load_learning_lroberto.aux)
 \openout1 = `load_learning_lroberto.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -294,35 +301,35 @@ LaTeX Font Info:    ... okay on input line 22.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box26
-Package hyperref Info: Link coloring OFF on input line 22.
+\AtBeginShipoutBox=\box28
+Package hyperref Info: Link coloring OFF on input line 23.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count119
+\c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
  (./load_learning_lroberto.out) (./load_learning_lroberto.out)
 \@outlinefile=\write3
 \openout3 = `load_learning_lroberto.out'.
 
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count120
+\scratchcounter=\count121
 \scratchdimen=\dimen119
-\scratchbox=\box27
-\nofMPsegments=\count121
-\nofMParguments=\count122
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count123
+\scratchbox=\box29
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count124
 \MPscratchDim=\dimen120
-\MPnumerator=\count124
-\makeMPintoPDFobject=\count125
-\everyMPtoPDFconversion=\toks17
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -334,31 +341,26 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 29.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 30.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 29.
+(Font)              <12> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 29.
+(Font)              <8> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 29.
+(Font)              <6> on input line 30.
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
-
- []
-
-<double_integrator_adaptation.png, id=5, 653.44125pt x 403.5075pt>
-./load_learning_lroberto.tex:40: Undefined control sequence.
+<sufficient_richness.png, id=25, 621.32124pt x 415.5525pt>
+./load_learning_lroberto.tex:49: Undefined control sequence.
 \Gin@@ewidth ->3.5in\textsize 
                               
-l.40 ...extsize]{double_integrator_adaptation.png}
+l.49 ...h=3.5in\textsize]{sufficient_richness.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -366,10 +368,52 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./load_learning_lroberto.tex:40: Undefined control sequence.
+./load_learning_lroberto.tex:49: Undefined control sequence.
 \Gin@@ewidth ->3.5in\textsize 
                               
-l.40 ...extsize]{double_integrator_adaptation.png}
+l.49 ...h=3.5in\textsize]{sufficient_richness.png}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: sufficient_richness.png Graphic file (type png)
+<use sufficient_richness.png>
+Package pdftex.def Info: sufficient_richness.png used on input line 49.
+(pdftex.def)             Requested size: 252.94499pt x 169.17287pt.
+
+Overfull \vbox (73.06505pt too high) has occurred while \output is active []
+
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.54 \newpage
+              <./sufficient_richness.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+<double_integrator_adaptation.png, id=41, 653.44125pt x 403.5075pt>
+./load_learning_lroberto.tex:61: Undefined control sequence.
+\Gin@@ewidth ->3.5in\textsize 
+                              
+l.61 ...extsize]{double_integrator_adaptation.png}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./load_learning_lroberto.tex:61: Undefined control sequence.
+\Gin@@ewidth ->3.5in\textsize 
+                              
+l.61 ...extsize]{double_integrator_adaptation.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -379,24 +423,18 @@ and I'll forget about whatever was undefined.
 
 File: double_integrator_adaptation.png Graphic file (type png)
 <use double_integrator_adaptation.png>
-Package pdftex.def Info: double_integrator_adaptation.png used on input line 40.
+Package pdftex.def Info: double_integrator_adaptation.png used on input line 61.
 (pdftex.def)             Requested size: 252.94499pt x 156.1913pt.
 
-
-LaTeX Warning: Reference `fig:double_integrator_sine' on page 1 undefined on input line 46.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--48
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
 
  []
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./double_integrator_adaptation.png>] <double_integrator_square_wave.png, id=21, 606.265pt x 404.51125pt>
-./load_learning_lroberto.tex:51: Undefined control sequence.
+<double_integrator_square_wave.png, id=42, 632.3625pt x 413.545pt>
+./load_learning_lroberto.tex:72: Undefined control sequence.
 \Gin@@ewidth ->3.5in\textsize 
                               
-l.51 ...xtsize]{double_integrator_square_wave.png}
+l.72 ...xtsize]{double_integrator_square_wave.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -404,10 +442,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./load_learning_lroberto.tex:51: Undefined control sequence.
+./load_learning_lroberto.tex:72: Undefined control sequence.
 \Gin@@ewidth ->3.5in\textsize 
                               
-l.51 ...xtsize]{double_integrator_square_wave.png}
+l.72 ...xtsize]{double_integrator_square_wave.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -417,53 +455,32 @@ and I'll forget about whatever was undefined.
 
 File: double_integrator_square_wave.png Graphic file (type png)
 <use double_integrator_square_wave.png>
-Package pdftex.def Info: double_integrator_square_wave.png used on input line 51.
-(pdftex.def)             Requested size: 252.94499pt x 168.77019pt.
-
-
-LaTeX Warning: Reference `fig:double_integrator_sq' on page 2 undefined on input line 58.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-
- []
-
-<arm_trajectory_tracking.png, id=22, 634.37pt x 406.51875pt>
-./load_learning_lroberto.tex:69: Undefined control sequence.
-\Gin@@ewidth ->3.5in\textsize 
-                              
-l.69 ...5in\textsize]{arm_trajectory_tracking.png}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./load_learning_lroberto.tex:69: Undefined control sequence.
-\Gin@@ewidth ->3.5in\textsize 
-                              
-l.69 ...5in\textsize]{arm_trajectory_tracking.png}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: arm_trajectory_tracking.png Graphic file (type png)
-<use arm_trajectory_tracking.png>
-Package pdftex.def Info: arm_trajectory_tracking.png used on input line 69.
-(pdftex.def)             Requested size: 252.94499pt x 162.08977pt.
+Package pdftex.def Info: double_integrator_square_wave.png used on input line 72.
+(pdftex.def)             Requested size: 252.94499pt x 165.41505pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<arm_trajectory_tracking2.png, id=23, 607.26875pt x 408.52625pt>
-./load_learning_lroberto.tex:77: Undefined control sequence.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.87 
+      <./double_integrator_adaptation.png>] <arm_trajectory_tracking2.png, id=48, 607.26875pt x 408.52625pt>
+./load_learning_lroberto.tex:91: Undefined control sequence.
 \Gin@@ewidth ->3.5in\textsize 
                               
-l.77 ...in\textsize]{arm_trajectory_tracking2.png}
+l.91 ...in\textsize]{arm_trajectory_tracking2.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -471,10 +488,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./load_learning_lroberto.tex:77: Undefined control sequence.
+./load_learning_lroberto.tex:91: Undefined control sequence.
 \Gin@@ewidth ->3.5in\textsize 
                               
-l.77 ...in\textsize]{arm_trajectory_tracking2.png}
+l.91 ...in\textsize]{arm_trajectory_tracking2.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -484,17 +501,23 @@ and I'll forget about whatever was undefined.
 
 File: arm_trajectory_tracking2.png Graphic file (type png)
 <use arm_trajectory_tracking2.png>
-Package pdftex.def Info: arm_trajectory_tracking2.png used on input line 77.
+Package pdftex.def Info: arm_trajectory_tracking2.png used on input line 91.
 (pdftex.def)             Requested size: 252.94499pt x 170.15858pt.
+ [3pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<arm_parameter_estimates.png, id=24, 640.3925pt x 403.5075pt>
-./load_learning_lroberto.tex:84: Undefined control sequence.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 
+      <./double_integrator_square_wave.png> <./arm_trajectory_tracking2.png>] <arm_trajectory_tracking.png, id=55, 634.37pt x 406.51875pt>
+./load_learning_lroberto.tex:101: Undefined control sequence.
 \Gin@@ewidth ->3.5in\textsize 
                               
-l.84 ...5in\textsize]{arm_parameter_estimates.png}
+l.101 ...in\textsize]{arm_trajectory_tracking.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -502,10 +525,42 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./load_learning_lroberto.tex:84: Undefined control sequence.
+./load_learning_lroberto.tex:101: Undefined control sequence.
 \Gin@@ewidth ->3.5in\textsize 
                               
-l.84 ...5in\textsize]{arm_parameter_estimates.png}
+l.101 ...in\textsize]{arm_trajectory_tracking.png}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: arm_trajectory_tracking.png Graphic file (type png)
+<use arm_trajectory_tracking.png>
+Package pdftex.def Info: arm_trajectory_tracking.png used on input line 101.
+(pdftex.def)             Requested size: 252.94499pt x 162.08977pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--109
+
+ []
+
+<arm_parameter_estimates.png, id=56, 640.3925pt x 403.5075pt>
+./load_learning_lroberto.tex:115: Undefined control sequence.
+\Gin@@ewidth ->3.5in\textsize 
+                              
+l.115 ...in\textsize]{arm_parameter_estimates.png}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./load_learning_lroberto.tex:115: Undefined control sequence.
+\Gin@@ewidth ->3.5in\textsize 
+                              
+l.115 ...in\textsize]{arm_parameter_estimates.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -515,48 +570,66 @@ and I'll forget about whatever was undefined.
 
 File: arm_parameter_estimates.png Graphic file (type png)
 <use arm_parameter_estimates.png>
-Package pdftex.def Info: arm_parameter_estimates.png used on input line 84.
+Package pdftex.def Info: arm_parameter_estimates.png used on input line 115.
 (pdftex.def)             Requested size: 252.94499pt x 159.37448pt.
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.119 
+       <./arm_trajectory_tracking.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 120--124
+
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-[2 <./double_integrator_square_wave.png>] [3 <./arm_trajectory_tracking.png> <./arm_trajectory_tracking2.png>] [4 <./arm_parameter_estimates.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
+
+ []
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.133 
+       <./arm_parameter_estimates.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--141
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (./load_learning_lroberto.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
-
-
-Package rerunfilecheck Warning: File `load_learning_lroberto.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `load_learning_lroberto.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  9908E21DD293FAB6F969D9B206E6909B;238.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package rerunfilecheck Info: File `load_learning_lroberto.out' has not changed.
+(rerunfilecheck)             Checksum: BBB8BB870303813ED5B36F56AACD6DA7;291.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
  ) 
 Here is how much of TeX's memory you used:
- 6017 strings out of 494953
- 89068 string characters out of 6180976
- 172030 words of memory out of 5000000
- 9238 multiletter control sequences out of 15000+600000
- 12227 words of font info for 33 fonts, out of 8000000 for 9000
+ 6088 strings out of 494953
+ 90038 string characters out of 6180976
+ 173672 words of memory out of 5000000
+ 9301 multiletter control sequences out of 15000+600000
+ 11451 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 33i,7n,30p,672b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/luke/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/luke/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/luke/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/luke/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/luke/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on load_learning_lroberto.pdf (4 pages, 181788 bytes).
+ 33i,7n,30p,1043b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/luke/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/luke/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/luke/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/luke/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on load_learning_lroberto.pdf (6 pages, 225819 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 245 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

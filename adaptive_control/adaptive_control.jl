@@ -1,11 +1,11 @@
 module adaptive_control
 
 function desired_states(t)
-    q1d = (pi/6)*(1 - cos(2*pi*t))
+    q1d = (pi/6)*(1 - cos(sqrt(2)*t))
     q2d = (pi/4)*(1 - cos(2*pi*t))
-    dq1d = 2*pi*(pi/6)*sin(2*pi*t)
+    dq1d = sqrt(2)*(pi/6)*sin(sqrt(2)*t)
     dq2d = 2*pi*(pi/4)*sin(2*pi*t)
-    ddq1d = (2*pi)^2*(pi/6)*cos(2*pi*t)
+    ddq1d = 2*(pi/6)*cos(sqrt(2)*t)
     ddq2d = (2*pi)^2*(pi/4)*cos(2*pi*t)
 
     [q1d;q2d;dq1d;dq2d;ddq1d;ddq2d]
